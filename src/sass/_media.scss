@@ -413,6 +413,30 @@
             font-size: 20px;
         }
     }
+    .footer {
+        
+        &__info {   
+            width: 320px;
+            height: 235px;
+        }
+        &__addr {    
+            font-size: 18px;
+        }
+        &__phone {
+            font-size: 17px;
+        }
+        &__social-item {
+            width: 31px;
+            height: 31px;
+        } 
+            
+            img {
+                height: 15px;
+            }
+        
+    }
+    
+        
        
     
         
