@@ -446,6 +446,10 @@
         .feed-form {
             width: 275px;
         }
+        &__close {
+            right: 2px;
+            line-height: 35px;
+        }
 
     }
     
@@ -454,6 +458,18 @@
     
         
 } 
+@media (max-width: 321px) {
+    .modal {
+        &__close {
+            right: 17px;
+            line-height: 35px;
+        }
+    }
+        
+        
+
+
+}
 
 
 
