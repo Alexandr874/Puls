@@ -435,6 +435,19 @@
             }
         
     }
+    .modal {
+        width: 350px;
+        &__subtitle {
+            font-size: 16px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+        .feed-form {
+            width: 275px;
+        }
+
+    }
     
         
        
