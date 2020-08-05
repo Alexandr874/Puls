@@ -50,6 +50,12 @@ $(document).ready(function(){
         })
     });
 
+    // Закрытие не по крестику, а по эрану
+    $(window).on('click', function(e) {
+        if (e.target.classList.contains('overlay')) {
+            $('.overlay, #consultation, #thanks, #order').fadeOut('slow');
+        }
+    });
 
    
 });
