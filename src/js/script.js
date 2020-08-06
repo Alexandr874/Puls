@@ -63,7 +63,7 @@ $(document).ready(function(){
             rules: {
                 name: {
                     required: true,
-                    minlength: 2
+                    minlength: 10
                 },
                 phone: "required",
                 email: {
@@ -74,7 +74,7 @@ $(document).ready(function(){
             messages: {
                 name: {
                     required: "Пожалуйста, введите свое имя",
-                    minlength: jQuery.validator.format("Введите {0} символа!")
+                    minlength: jQuery.validator.format("Введите {0} символoв!")
                   },
                 phone: "Пожалуйста, введите свой номер телефона",
                 email: {
