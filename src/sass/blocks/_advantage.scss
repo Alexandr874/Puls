@@ -32,6 +32,15 @@
             }
         }
     }
+    &__icon {
+        &_animations {
+            animation: hearbeat 2s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+
+        }
+    }
 
 }
     
