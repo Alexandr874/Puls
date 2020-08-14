@@ -133,7 +133,7 @@
             list-style-type: none;
             &_active {
                 transform: translateX(-100%);
-                margin-left: 0px; 
+                margin-left: 0px;
             }
             li {
                 position: relative;
@@ -149,9 +149,22 @@
                     background-color: $main-color;
                     left: -14px;
                     top: 7px;
+                    
                 }
+                &:last-child {
+                    text-align: center;
+                    margin-top: 90px;
+                    a {
+                        color: $main-color;
+                    }
+                    &:before {
+                        display: none;
+                    }
+                }
+                
 
             }
+            
         &__back {
             position: absolute;
             bottom: 0;
